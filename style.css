@@ -544,6 +544,52 @@ h2::after {
 }
 
 /* ============================================
+   FAQ SECTION
+   ============================================ */
+
+.faq {
+    background: var(--parchment-light);
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2.5rem;
+}
+
+.faq-item {
+    background: linear-gradient(135deg, #fff 0%, var(--parchment) 100%);
+    padding: 2.5rem;
+    border-radius: 20px;
+    border: 3px solid var(--gold-dark);
+    box-shadow: 
+        0 5px 15px rgba(93, 64, 55, 0.2),
+        inset 0 0 20px rgba(255, 215, 0, 0.05);
+    transition: all 0.3s;
+}
+
+.faq-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 
+        0 12px 30px rgba(93, 64, 55, 0.3),
+        inset 0 0 30px rgba(255, 215, 0, 0.1);
+    border-color: var(--cyan-glow);
+}
+
+.faq-item h3 {
+    color: var(--wood-dark);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.faq-item p {
+    color: var(--wood-light);
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* ============================================
    FOOTER
    ============================================ */
 

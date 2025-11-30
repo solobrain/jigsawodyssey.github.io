@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <!-- French (default) -->
+    <url>
+        <loc>https://jigsawodyssey.com/</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://jigsawodyssey.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jigsawodyssey.com/en.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://jigsawodyssey.com/es.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://jigsawodyssey.com/pt.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://jigsawodyssey.com/ru.html"/>
+        <lastmod>2024-11-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- English -->
+    <url>
+        <loc>https://jigsawodyssey.com/en.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://jigsawodyssey.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jigsawodyssey.com/en.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://jigsawodyssey.com/es.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://jigsawodyssey.com/pt.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://jigsawodyssey.com/ru.html"/>
+        <lastmod>2024-11-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Spanish -->
+    <url>
+        <loc>https://jigsawodyssey.com/es.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://jigsawodyssey.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jigsawodyssey.com/en.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://jigsawodyssey.com/es.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://jigsawodyssey.com/pt.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://jigsawodyssey.com/ru.html"/>
+        <lastmod>2024-11-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Portuguese -->
+    <url>
+        <loc>https://jigsawodyssey.com/pt.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://jigsawodyssey.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jigsawodyssey.com/en.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://jigsawodyssey.com/es.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://jigsawodyssey.com/pt.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://jigsawodyssey.com/ru.html"/>
+        <lastmod>2024-11-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Russian -->
+    <url>
+        <loc>https://jigsawodyssey.com/ru.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://jigsawodyssey.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jigsawodyssey.com/en.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://jigsawodyssey.com/es.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://jigsawodyssey.com/pt.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://jigsawodyssey.com/ru.html"/>
+        <lastmod>2024-11-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Privacy Pages -->
+    <url>
+        <loc>https://jigsawodyssey.com/privacy.html</loc>
+        <lastmod>2024-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
