@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suppression des Données - Jigsaw Odyssey</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .delete-section {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .warning-box {
+            background: rgba(255, 107, 107, 0.1);
+            border-left: 4px solid #FF6B6B;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .info-box {
+            background: rgba(72, 187, 120, 0.1);
+            border-left: 4px solid #48BB78;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .step {
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+        }
+        
+        .step-number {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            background: var(--gold);
+            color: var(--dark-blue);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            font-weight: bold;
+            margin-right: 12px;
+        }
+        
+        .data-list {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+        
+        .data-list li {
+            margin: 10px 0;
+            color: var(--off-white);
+        }
+        
+        .contact-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: var(--gold);
+            color: var(--dark-blue);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: transform 0.2s;
+        }
+        
+        .contact-button:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">🗑️ Suppression des Données</h1>
+        
+        <div class="delete-section">
+            <h2 style="color: var(--gold); margin-bottom: 20px;">Demande de Suppression de Vos Données</h2>
+            
+            <p style="font-size: 18px; line-height: 1.8; color: var(--off-white);">
+                Conformément au RGPD et aux règles Google Play, vous avez le droit de demander la suppression de toutes vos données personnelles associées à <strong>Jigsaw Odyssey</strong>.
+            </p>
+            
+            <div class="warning-box">
+                <h3 style="color: #FF6B6B; margin-top: 0;">⚠️ ATTENTION</h3>
+                <p style="margin: 0; color: var(--off-white);">
+                    La suppression de vos données est <strong>définitive et irréversible</strong>. Vous perdrez :
+                </p>
+                <ul class="data-list">
+                    <li>Toute votre progression dans les puzzles</li>
+                    <li>Les étoiles et accomplissements débloqués</li>
+                    <li>Les capsules mystères collectées</li>
+                    <li>L'historique de vos achats in-app (Google Play conserve l'historique de facturation)</li>
+                    <li>Les statistiques et records personnels</li>
+                    <li>Les puzzles personnalisés créés avec vos photos</li>
+                </ul>
+            </div>
+            
+            <h3 style="color: var(--gold); margin-top: 40px;">📋 Données Collectées par Jigsaw Odyssey</h3>
+            
+            <div class="info-box">
+                <p style="margin: 0; color: var(--off-white); font-weight: bold;">
+                    Données stockées :
+                </p>
+                <ul class="data-list">
+                    <li><strong>Progression de jeu :</strong> Puzzles complétés, étoiles gagnées, chapitres débloqués</li>
+                    <li><strong>Préférences :</strong> Langue, paramètres audio, fond d'écran choisi</li>
+                    <li><strong>Identifiant anonyme :</strong> ID Firebase anonyme (pas de nom/email)</li>
+                    <li><strong>Historique achats :</strong> Capsules achetées (géré par Google Play)</li>
+                    <li><strong>Données analytiques :</strong> Crashs, sessions (anonymes, Firebase Analytics)</li>
+                    <li><strong>Photos personnelles :</strong> Stockées localement sur votre appareil uniquement (Mode Infini)</li>
+                </ul>
+            </div>
+            
+            <h3 style="color: var(--gold); margin-top: 40px;">🔄 Procédure de Suppression</h3>
+            
+            <div class="step">
+                <h4><span class="step-number">1</span>Suppression dans l'Application</h4>
+                <p style="color: var(--off-white);">
+                    La méthode la plus simple :
+                </p>
+                <ol style="margin-left: 20px; color: var(--off-white);">
+                    <li>Ouvrez Jigsaw Odyssey</li>
+                    <li>Allez dans Paramètres ⚙️</li>
+                    <li>Cliquez sur "Supprimer mes données"</li>
+                    <li>Confirmez la suppression</li>
+                </ol>
+                <p style="color: var(--light-gray); font-size: 14px; margin-top: 10px;">
+                    ✅ Effet immédiat : Toutes vos données locales et cloud sont supprimées instantanément.
+                </p>
+            </div>
+            
+            <div class="step">
+                <h4><span class="step-number">2</span>Demande par Email</h4>
+                <p style="color: var(--off-white);">
+                    Si vous ne pouvez plus accéder à l'application ou préférez passer par email :
+                </p>
+                <p style="color: var(--off-white); margin: 15px 0;">
+                    Envoyez un email à <strong style="color: var(--gold);">support@jigsawodyssey.com</strong> avec :
+                </p>
+                <ul style="margin-left: 20px; color: var(--off-white);">
+                    <li><strong>Objet :</strong> "RGPD - Suppression de mes données"</li>
+                    <li><strong>Informations à fournir :</strong>
+                        <ul style="margin-left: 20px; margin-top: 10px;">
+                            <li>Votre ID utilisateur Firebase (visible dans Paramètres > À propos)</li>
+                            <li>Votre adresse email Google Play (si achats effectués)</li>
+                            <li>Date approximative de dernière utilisation</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p style="color: var(--light-gray); font-size: 14px; margin-top: 15px;">
+                    ⏱️ Délai de traitement : Sous 48 heures ouvrées
+                </p>
+                
+                <a href="mailto:support@jigsawodyssey.com?subject=RGPD - Suppression de mes données" class="contact-button">
+                    📧 Envoyer une Demande
+                </a>
+            </div>
+            
+            <div class="step">
+                <h4><span class="step-number">3</span>Désinstallation de l'Application</h4>
+                <p style="color: var(--off-white);">
+                    Désinstaller l'app supprime automatiquement :
+                </p>
+                <ul style="margin-left: 20px; color: var(--off-white);">
+                    <li>✅ Toutes les données locales (progression, photos, paramètres)</li>
+                    <li>⚠️ Les données cloud restent 90 jours avant suppression automatique</li>
+                </ul>
+                <p style="color: var(--light-gray); font-size: 14px; margin-top: 10px;">
+                    Pour une suppression immédiate du cloud, utilisez l'option 1 ou 2 avant de désinstaller.
+                </p>
+            </div>
+            
+            <h3 style="color: var(--gold); margin-top: 40px;">📊 Données Conservées vs Supprimées</h3>
+            
+            <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+                <thead>
+                    <tr style="background: rgba(255, 215, 0, 0.1);">
+                        <th style="padding: 12px; text-align: left; color: var(--gold); border-bottom: 2px solid var(--gold);">Type de Données</th>
+                        <th style="padding: 12px; text-align: left; color: var(--gold); border-bottom: 2px solid var(--gold);">Après Suppression</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); color: var(--off-white);">Progression de jeu</td>
+                        <td style="padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); color: #FF6B6B;">❌ Supprimée</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); color: var(--off-white);">Capsules collectées</td>
+                        <td style="padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); color: #FF6B6B;">❌ Supprimée</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); color: var(--off-white);">ID Firebase anonyme</td>
+                        <td style="padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); color: #FF6B6B;">❌ Supprimé</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); color: var(--off-white);">Photos personnelles</td>
+                        <td style="padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); color: #FF6B6B;">❌ Supprimées (local)</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); color: var(--off-white);">Historique de facturation Google Play</td>
+                        <td style="padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); color: #48BB78;">✅ Conservé par Google (obligation légale)</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; color: var(--off-white);">Logs d'erreurs anonymes (Firebase)</td>
+                        <td style="padding: 12px; color: #FFD700;">⏱️ Supprimés après 14 mois (politique Firebase)</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="info-box" style="margin-top: 40px;">
+                <h4 style="color: #48BB78; margin-top: 0;">💡 Bon à Savoir</h4>
+                <ul class="data-list">
+                    <li>La suppression est <strong>immédiate</strong> pour les données cloud Firebase</li>
+                    <li>Google Play conserve l'historique de vos achats (obligation légale fiscale)</li>
+                    <li>Vous pouvez réinstaller l'app et recommencer à zéro à tout moment</li>
+                    <li>Aucune donnée personnelle identifiable (nom, email, photo de profil) n'est collectée</li>
+                </ul>
+            </div>
+            
+            <h3 style="color: var(--gold); margin-top: 40px;">❓ Questions Fréquentes</h3>
+            
+            <div class="step">
+                <h4>Puis-je récupérer mes données après suppression ?</h4>
+                <p style="color: var(--off-white);">
+                    Non, la suppression est définitive et irréversible. Nous ne conservons aucune sauvegarde de vos données après suppression.
+                </p>
+            </div>
+            
+            <div class="step">
+                <h4>Mes achats in-app sont-ils remboursés ?</h4>
+                <p style="color: var(--off-white);">
+                    Non, la suppression de données ne donne pas droit à un remboursement. Pour une demande de remboursement, contactez le support Google Play.
+                </p>
+            </div>
+            
+            <div class="step">
+                <h4>Combien de temps prend la suppression ?</h4>
+                <p style="color: var(--off-white);">
+                    • Via l'app : Immédiat<br>
+                    • Par email : Sous 48 heures ouvrées<br>
+                    • Désinstallation : 90 jours (suppression automatique)
+                </p>
+            </div>
+            
+            <h3 style="color: var(--gold); margin-top: 40px;">📞 Contact</h3>
+            
+            <p style="color: var(--off-white); font-size: 16px;">
+                Pour toute question concernant la suppression de vos données ou vos droits RGPD :
+            </p>
+            
+            <ul class="data-list" style="font-size: 16px;">
+                <li><strong>Email :</strong> <a href="mailto:support@jigsawodyssey.com" style="color: var(--gold);">support@jigsawodyssey.com</a></li>
+                <li><strong>Délai de réponse :</strong> Sous 48 heures ouvrées</li>
+                <li><strong>Développeur :</strong> Odyssey Games</li>
+                <li><strong>Localisation :</strong> France</li>
+            </ul>
+            
+            <div class="info-box" style="margin-top: 30px;">
+                <p style="margin: 0; color: var(--off-white);">
+                    <strong>Conformité :</strong> Cette page respecte le RGPD (Europe), la CCPA (Californie) et les exigences Google Play Store.
+                </p>
+            </div>
+        </div>
+        
+        <p style="text-align: center; margin: 40px 0;">
+            <a href="index.html" style="color: var(--gold);">← Retour à l'accueil</a>
+        </p>
+    </div>
+</body>
+</html>
