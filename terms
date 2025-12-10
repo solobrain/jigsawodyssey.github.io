@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditions d'Utilisation - Jigsaw Odyssey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="description" content="Conditions d'utilisation de l'application Jigsaw Odyssey">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">🧩 Jigsaw Odyssey</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#features">Fonctionnalités</a></li>
+                <li><a href="privacy.html">Confidentialité</a></li>
+                <li><a href="index.html#download">Télécharger</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="legal-content">
+        <div class="container">
+            <h1>Conditions d'Utilisation</h1>
+            <p class="last-update">Dernière mise à jour : 10 décembre 2025</p>
+
+            <section>
+                <h2>1. Acceptation des Conditions</h2>
+                <p>En téléchargeant, installant ou utilisant l'application <strong>Jigsaw Odyssey</strong>, vous acceptez d'être lié par ces conditions d'utilisation.</p>
+                <p>Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser l'application.</p>
+            </section>
+
+            <section>
+                <h2>2. Description du Service</h2>
+                <p>Jigsaw Odyssey est une application mobile de jeux de puzzles proposant :</p>
+                <ul>
+                    <li>Un mode histoire avec plus de 250 puzzles thématiques</li>
+                    <li>Des quêtes quotidiennes avec récompenses</li>
+                    <li>Un mode infini pour rejouer vos puzzles préférés</li>
+                    <li>Un mode enfant sécurisé avec contrôle parental</li>
+                    <li>Des capsules mystères (power-ups)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Compte Utilisateur</h2>
+                <p>L'application utilise votre compte Google Play Games pour :</p>
+                <ul>
+                    <li>Synchroniser votre progression entre appareils</li>
+                    <li>Sauvegarder vos achats in-app</li>
+                    <li>Restaurer vos données en cas de changement d'appareil</li>
+                </ul>
+                <p>Vous êtes responsable de la sécurité de votre compte Google.</p>
+            </section>
+
+            <section>
+                <h2>4. Achats In-App</h2>
+                <p>L'application propose des achats optionnels :</p>
+                <ul>
+                    <li>Capsules mystères (Œil Divin, Magnette, Destructeur de Monde)</li>
+                    <li>Packs de capsules</li>
+                    <li>Thèmes pour le mode enfant</li>
+                </ul>
+                <p><strong>Important :</strong></p>
+                <ul>
+                    <li>Tous les puzzles sont accessibles <strong>gratuitement</strong></li>
+                    <li>Les achats sont gérés par Google Play et soumis à leurs conditions</li>
+                    <li>Les remboursements sont gérés par Google Play selon leur politique</li>
+                    <li>Les achats ne sont pas transférables entre comptes</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. Publicités</h2>
+                <p>L'application affiche des publicités via Google AdMob :</p>
+                <ul>
+                    <li>Publicités interstitielles entre les puzzles</li>
+                    <li>Publicités récompensées (optionnelles) pour gagner des capsules gratuites</li>
+                </ul>
+                <p>Le mode enfant affiche uniquement des publicités filtrées et adaptées aux familles.</p>
+            </section>
+
+            <section>
+                <h2>6. Propriété Intellectuelle</h2>
+                <p>Tous les éléments de Jigsaw Odyssey sont protégés par le droit d'auteur :</p>
+                <ul>
+                    <li>Images des puzzles</li>
+                    <li>Interface utilisateur et design</li>
+                    <li>Musiques et effets sonores</li>
+                    <li>Logo et marque "Jigsaw Odyssey"</li>
+                    <li>Code source de l'application</li>
+                </ul>
+                <p>Toute reproduction, modification ou distribution non autorisée est interdite.</p>
+            </section>
+
+            <section>
+                <h2>7. Comportement de l'Utilisateur</h2>
+                <p>En utilisant l'application, vous vous engagez à ne pas :</p>
+                <ul>
+                    <li>Tenter de pirater, modifier ou décompiler l'application</li>
+                    <li>Utiliser des logiciels de triche ou d'automatisation</li>
+                    <li>Exploiter des bugs ou failles de sécurité</li>
+                    <li>Revendre ou transférer votre compte</li>
+                    <li>Utiliser l'application à des fins illégales</li>
+                </ul>
+                <p>Tout comportement frauduleux peut entraîner la suspension de votre accès.</p>
+            </section>
+
+            <section>
+                <h2>8. Mode Enfant</h2>
+                <p>Le mode enfant est conçu pour les utilisateurs de moins de 13 ans :</p>
+                <ul>
+                    <li>Accès protégé par code PIN parental</li>
+                    <li>Aucun achat in-app accessible</li>
+                    <li>Publicités filtrées selon les normes COPPA</li>
+                    <li>Contenu adapté aux enfants</li>
+                </ul>
+                <p>Les parents sont responsables de la supervision de l'utilisation par leurs enfants.</p>
+            </section>
+
+            <section>
+                <h2>9. Disponibilité du Service</h2>
+                <p>Nous nous efforçons de maintenir l'application disponible 24h/24, mais :</p>
+                <ul>
+                    <li>Des interruptions peuvent survenir pour maintenance</li>
+                    <li>Certaines fonctionnalités nécessitent une connexion internet</li>
+                    <li>La progression hors ligne est sauvegardée localement</li>
+                </ul>
+                <p>Nous ne garantissons pas une disponibilité continue et sans interruption.</p>
+            </section>
+
+            <section>
+                <h2>10. Limitation de Responsabilité</h2>
+                <p>L'application est fournie "en l'état". Nous ne sommes pas responsables :</p>
+                <ul>
+                    <li>Des pertes de données dues à des problèmes techniques</li>
+                    <li>Des dommages indirects liés à l'utilisation de l'application</li>
+                    <li>Des problèmes causés par des applications ou services tiers</li>
+                    <li>De l'utilisation inappropriée de l'application</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>11. Modifications</h2>
+                <p>Nous nous réservons le droit de modifier :</p>
+                <ul>
+                    <li>Ces conditions d'utilisation</li>
+                    <li>Les fonctionnalités de l'application</li>
+                    <li>Les prix des achats in-app</li>
+                    <li>Le contenu des puzzles et chapitres</li>
+                </ul>
+                <p>Les modifications importantes seront notifiées dans l'application.</p>
+            </section>
+
+            <section>
+                <h2>12. Résiliation</h2>
+                <p>Vous pouvez cesser d'utiliser l'application à tout moment en la désinstallant.</p>
+                <p>Nous pouvons suspendre ou résilier votre accès en cas de violation de ces conditions.</p>
+                <p>Pour supprimer vos données, consultez notre <a href="delete-account.html">page de suppression de compte</a>.</p>
+            </section>
+
+            <section>
+                <h2>13. Droit Applicable</h2>
+                <p>Ces conditions sont régies par le droit français.</p>
+                <p>Tout litige sera soumis aux tribunaux compétents de Lyon, France.</p>
+            </section>
+
+            <section>
+                <h2>14. Contact</h2>
+                <p>Pour toute question concernant ces conditions d'utilisation :</p>
+                <p><strong>Email :</strong> <a href="mailto:support@jigsawodyssey.com">support@jigsawodyssey.com</a></p>
+                <p><strong>Développeur :</strong> Odyssey Games</p>
+                <p><strong>Localisation :</strong> France</p>
+            </section>
+
+            <hr>
+
+            <p class="footer-note">En utilisant Jigsaw Odyssey, vous acceptez ces conditions d'utilisation.<br>
+            Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser l'application.</p>
+
+            <a href="index.html" class="back-link">← Retour à l'accueil</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Jigsaw Odyssey</h3>
+                    <p>L'aventure puzzle ultime sur Android</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Légal</h3>
+                    <ul>
+                        <li><a href="privacy.html">Politique de confidentialité</a></li>
+                        <li><a href="terms.html">Conditions d'utilisation</a></li>
+                        <li><a href="delete-account.html">Supprimer mes données</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><strong>Email :</strong><br>
+                    <a href="mailto:support@jigsawodyssey.com">support@jigsawodyssey.com</a></p>
+                    <p><strong>Développeur :</strong><br>
+                    Odyssey Games</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Jigsaw Odyssey. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
