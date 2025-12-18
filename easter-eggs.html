@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easter Eggs 🥚 - Jigsaw Odyssey | Secrets & Astuces</title>
+    <meta name="description" content="Découvrez tous les secrets cachés dans Jigsaw Odyssey ! Easter eggs, astuces et récompenses secrètes.">
+    <meta name="keywords" content="jigsaw odyssey, easter eggs, secrets, astuces, récompenses, capsules mystères">
+    <link rel="icon" type="image/webp" href="logo_jigsaw.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Styles spécifiques Easter Eggs */
+        .egg-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .egg-card {
+            background: linear-gradient(135deg, var(--wood-dark) 0%, var(--wood-medium) 100%);
+            border: 4px solid var(--gold-medium);
+            border-radius: 25px;
+            padding: 2.5rem;
+            margin: 2rem 0;
+            transition: all 0.4s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .egg-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0, 229, 255, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+        
+        .egg-card:hover::before {
+            opacity: 1;
+        }
+        
+        .egg-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 
+                0 20px 50px rgba(0,0,0,0.5),
+                0 0 30px rgba(0, 229, 255, 0.3);
+            border-color: var(--cyan-bright);
+        }
+        
+        .egg-emoji {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            filter: drop-shadow(3px 3px 6px rgba(0,0,0,0.5));
+        }
+        
+        .egg-title {
+            color: var(--gold-bright);
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .egg-difficulty {
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .easy { background: linear-gradient(135deg, #10b981, #059669); color: white; }
+        .medium { background: linear-gradient(135deg, #f59e0b, #d97706); color: white; }
+        .hard { background: linear-gradient(135deg, #ef4444, #dc2626); color: white; }
+        .secret { background: linear-gradient(135deg, #8b5cf6, #7c3aed); color: white; }
+        
+        .egg-description {
+            color: var(--parchment-light);
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .egg-hint {
+            background: rgba(212, 175, 55, 0.15);
+            border-left: 5px solid var(--gold-medium);
+            padding: 1rem 1.5rem;
+            border-radius: 0 15px 15px 0;
+            color: var(--gold-bright);
+            font-style: italic;
+        }
+        
+        .egg-reward {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background: rgba(255, 215, 0, 0.1);
+            border-radius: 15px;
+            border: 2px solid var(--gold-dark);
+        }
+        
+        .egg-reward-label {
+            color: var(--gold-bright);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .egg-reward span:last-child {
+            color: var(--parchment-light);
+        }
+        
+        .spoiler {
+            background: var(--wood-darkest);
+            color: var(--wood-darkest);
+            padding: 4px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid var(--gold-dark);
+        }
+        
+        .spoiler:hover, .spoiler.revealed {
+            background: rgba(0, 229, 255, 0.2);
+            color: var(--cyan-bright);
+            border-color: var(--cyan-bright);
+        }
+        
+        .counter {
+            text-align: center;
+            padding: 2.5rem;
+            background: linear-gradient(135deg, var(--gold-bright) 0%, var(--gold-medium) 100%);
+            border-radius: 25px;
+            margin: 2rem 0;
+            box-shadow: 
+                0 10px 30px rgba(255, 215, 0, 0.4),
+                inset 0 -3px 8px rgba(0,0,0,0.2);
+            border: 4px solid var(--wood-medium);
+        }
+        
+        .counter-number {
+            font-size: 5rem;
+            font-weight: bold;
+            color: var(--wood-dark);
+            text-shadow: 2px 2px 4px rgba(255,255,255,0.3);
+        }
+        
+        .counter-label {
+            color: var(--wood-dark);
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .warning-box {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.2), rgba(220, 38, 38, 0.1));
+            border: 4px solid #ef4444;
+            border-radius: 20px;
+            padding: 2rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .warning-box h3 {
+            color: #ef4444;
+            font-size: 1.6rem;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .warning-box p {
+            color: var(--wood-light);
+            font-size: 1.1rem;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: var(--gold-bright);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: all 0.3s;
+        }
+        
+        .back-link:hover {
+            color: var(--cyan-bright);
+            padding-left: 10px;
+        }
+        
+        .hashtag {
+            background: linear-gradient(135deg, var(--cyan-glow), var(--cyan-dark));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="logo_jigsaw.png" alt="Jigsaw Odyssey Logo" class="logo-img" width="50" height="50">
+                <span class="logo-text">JIGSAW ODYSSEY</span>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#features">Fonctionnalités</a></li>
+                <li><a href="easter-eggs.html">🥚 Easter Eggs</a></li>
+                <li><a href="index.html#download">Télécharger</a></li>
+                <li><a href="privacy.html">Confidentialité</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 40vh;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 style="font-size: 3.5rem;">🥚 EASTER EGGS</h1>
+            <p class="tagline">Secrets & Trésors Cachés</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section>
+        <div class="egg-container">
+            <div class="warning-box">
+                <h3>⚠️ ATTENTION SPOILERS !</h3>
+                <p>Cette page révèle tous les secrets du jeu. Continuez seulement si vous êtes vraiment bloqué !</p>
+            </div>
+
+            <div class="counter">
+                <div class="counter-number">4</div>
+                <div class="counter-label">Easter Eggs à découvrir</div>
+            </div>
+
+            <!-- Easter Egg 1 -->
+            <div class="egg-card">
+                <div class="egg-emoji">🧩</div>
+                <div class="egg-title">Le Logo Magique</div>
+                <span class="egg-difficulty easy">Facile</span>
+                <p class="egg-description">
+                    Le logo de Jigsaw Odyssey cache un secret... Il suffit de lui montrer un peu d'amour !
+                </p>
+                <div class="egg-hint">
+                    💡 <strong>Indice :</strong> Tapotez le logo sur l'écran d'accueil. Combien de fois ? <span class="spoiler" onclick="this.classList.toggle('revealed')">7 fois</span>
+                </div>
+                <div class="egg-reward">
+                    <span class="egg-reward-label">🎁 Récompense :</span>
+                    <span>1 Capsule Mystère</span>
+                </div>
+            </div>
+
+            <!-- Easter Egg 2 -->
+            <div class="egg-card">
+                <div class="egg-emoji">🎄</div>
+                <div class="egg-title">Magie de Noël</div>
+                <span class="egg-difficulty medium">Saisonnier</span>
+                <p class="egg-description">
+                    Jigsaw Odyssey célèbre les fêtes avec vous ! Une surprise spéciale vous attend pendant la période de Noël.
+                </p>
+                <div class="egg-hint">
+                    💡 <strong>Indice :</strong> Ouvrez l'app le <span class="spoiler" onclick="this.classList.toggle('revealed')">25 décembre</span> pour voir la magie opérer !
+                </div>
+                <div class="egg-reward">
+                    <span class="egg-reward-label">🎁 Récompense :</span>
+                    <span>Flocons de neige animés + Cadeau surprise</span>
+                </div>
+            </div>
+
+            <!-- Easter Egg 3 -->
+            <div class="egg-card">
+                <div class="egg-emoji">🎰</div>
+                <div class="egg-title">Jackpot !</div>
+                <span class="egg-difficulty hard">Difficile</span>
+                <p class="egg-description">
+                    Les quêtes quotidiennes réservent parfois des surprises exceptionnelles aux joueurs les plus chanceux...
+                </p>
+                <div class="egg-hint">
+                    💡 <strong>Indice :</strong> Complétez les <span class="spoiler" onclick="this.classList.toggle('revealed')">3 quêtes quotidiennes</span> et croisez les doigts !
+                </div>
+                <div class="egg-reward">
+                    <span class="egg-reward-label">🎁 Récompense :</span>
+                    <span>Bonus de capsules aléatoire</span>
+                </div>
+            </div>
+
+            <!-- Easter Egg 4 -->
+            <div class="egg-card">
+                <div class="egg-emoji">🔥</div>
+                <div class="egg-title">Série de Victoires</div>
+                <span class="egg-difficulty hard">Difficile</span>
+                <p class="egg-description">
+                    La persévérance est toujours récompensée ! Maintenez une série de victoires pour débloquer un bonus spécial.
+                </p>
+                <div class="egg-hint">
+                    💡 <strong>Indice :</strong> Complétez les quêtes quotidiennes <span class="spoiler" onclick="this.classList.toggle('revealed')">plusieurs jours d'affilée</span>
+                </div>
+                <div class="egg-reward">
+                    <span class="egg-reward-label">🎁 Récompense :</span>
+                    <span>Capsules bonus selon votre streak</span>
+                </div>
+            </div>
+
+            <!-- Easter Egg Secret -->
+            <div class="egg-card" style="border-color: #8b5cf6;">
+                <div class="egg-emoji">❓</div>
+                <div class="egg-title">???</div>
+                <span class="egg-difficulty secret">Ultra Secret</span>
+                <p class="egg-description">
+                    Il y a peut-être d'autres secrets à découvrir... Explorez le jeu et restez attentif !
+                </p>
+                <div class="egg-hint">
+                    💡 <strong>Indice :</strong> Certains secrets n'ont pas encore été découverts... 👀
+                </div>
+            </div>
+
+            <hr style="margin: 3rem 0; border-color: var(--gold-dark); border-width: 2px;">
+
+            <h2 style="text-align: center; color: var(--wood-dark);">🏆 Avez-vous tout trouvé ?</h2>
+            <p style="text-align: center; font-size: 1.2rem; color: var(--wood-light);">
+                Partagez vos découvertes avec nous sur les réseaux sociaux !<br>
+                Utilisez le hashtag <span class="hashtag">#JigsawOdyssey</span>
+            </p>
+
+            <div style="text-align: center;">
+                <a href="index.html" class="back-link">← Retour à l'accueil</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="logo_jigsaw.png" alt="Logo" class="footer-logo" width="80" height="80">
+                <h3>JIGSAW ODYSSEY</h3>
+                <p>L'aventure puzzle ultime sur Android.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Liens Rapides</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html#features">Fonctionnalités</a></li>
+                    <li><a href="easter-eggs.html">🥚 Easter Eggs</a></li>
+                    <li><a href="index.html#download">Télécharger</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Légal</h3>
+                <ul>
+                    <li><a href="privacy.html">Politique de confidentialité</a></li>
+                    <li><a href="terms.html">Conditions d'utilisation</a></li>
+                    <li><a href="delete-account.html">Supprimer mes données</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>
+                    <strong>Email :</strong><br>
+                    <a href="mailto:support@jigsawodyssey.com">support@jigsawodyssey.com</a>
+                </p>
+                <p style="margin-top: 1rem;">
+                    <strong>Développeur :</strong><br>
+                    Odyssey Games
+                </p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Jigsaw Odyssey. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.spoiler').forEach(spoiler => {
+            spoiler.addEventListener('click', function() {
+                this.classList.toggle('revealed');
+            });
+        });
+    </script>
+</body>
+</html>
