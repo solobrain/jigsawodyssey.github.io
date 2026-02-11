@@ -1,0 +1,14 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.jigsawodyssey",
+      "sha256_cert_fingerprints": [
+        "7B:97:3A:CB:29:91:4A:89:3D:88:72:0F:FA:FB:32:9F:B3:BD:E8:21:F1:6D:20:29:9A:1A:94:C9:24:70:6F:66",
+        "50:66:84:1A:1A:7E:00:27:4C:3D:65:C2:47:A6:E3:C2:44:4A:70:2D:09:1F:A8:EE:77:99:09:CA:C0:0E:A9:C8",
+        "1D:79:9C:1C:8E:99:11:AD:F9:21:F8:03:77:20:5C:4D:E4:9B:C0:10:7C:72:02:CC:6A:C7:E9:90:0E:04:AA"
+      ]
+    }
+  }
+]
